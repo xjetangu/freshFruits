@@ -1,0 +1,18 @@
+{
+    "goods0Item": {
+        "status": 200,
+        "message": "请求成功",
+        "goods0ItemList": [
+            { "id": "0001", "url": "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=28564743,1647649785&fm=26&gp=0.jpg", "title": "应季水果" },
+            { "id": "0002", "url": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1592247204757&di=a80c1a963f06be0a8f29bca644c28aa0&imgtype=0&src=http%3A%2F%2Fimages.shobserver.com%2Fnews%2F690_390%2F2017%2F6%2F9%2Fe0cf1b77-442f-41da-b275-ef8d9dd0cf75.jpg", "title": "肉蛋蔬菜" },
+            { "id": "0003", "url": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1592248357459&di=8e8a7008c56b5b214f69e5963af8e1ec&imgtype=0&src=http%3A%2F%2Fimg4.99114.com%2Fgroup1%2FM00%2F14%2F9C%2FwKgGS1eHm1uAGoXsAAkSwwcvIdw558.jpg", "title": "鲜活水产" },
+            { "id": "0004", "url": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1456132118,3958570860&fm=11&gp=0.jpg", "title": "快手美食" },
+            { "id": "0005", "url": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1592300457385&di=729254476bf4d55be6e7d758d303937a&imgtype=0&src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2F41015bb3712958af177dfded9bc5158e2d1a9f0d1a003-ipqfo1_fw658", "title": "粮油速食" },
+            { "id": "0006", "url": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1592248600736&di=db401a4e0f0e6614ff7f43a1c72d6744&imgtype=0&src=http%3A%2F%2Fimg.files.swws.258.com%2F1%2F2016%2F0307%2F14%2F56dd195e07b17.jpg", "title": "大牌乳品" },
+            { "id": "0007", "url": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=985196509,3796957412&fm=26&gp=0.jpg", "title": "酒饮冲调" },
+            { "id": "0008", "url": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=625727630,621811403&fm=26&gp=0.jpg", "title": "零食任选" },
+            { "id": "0009", "url": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1267979597,1729505148&fm=26&gp=0.jpg", "title": "日用好货" },
+            { "id": "00010", "url": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=102935315,1905494349&fm=26&gp=0.jpg", "title": "美妆个护" }
+        ]
+    }
+}

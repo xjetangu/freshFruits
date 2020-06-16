@@ -2,8 +2,10 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import axios from 'axios'
 
 import Router from 'vue-router'
+Vue.prototype.$http = axios
 
 const originalPush = Router.prototype.push;
 Router.prototype.push = function push(location) {

@@ -38,7 +38,7 @@ export default {
 <style lang="less" scoped>
 .tabbar {
   display: flex;
-  position: absolute;
+  position: fixed;
   height: 49px;
   background: #e5e2e2;
   bottom: 0;

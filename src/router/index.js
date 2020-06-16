@@ -12,6 +12,8 @@ const shopCar = () =>
 const Profile = () =>
     import ('../views/Profile/profile.vue');
 
+const goods0 = () =>
+    import ('../views/Home/HomeChildren/goods0.vue');
 
 Vue.use(VueRouter)
 
@@ -20,7 +22,11 @@ const routes = [{
         redirect: '/home'
     }, {
         path: '/home',
-        component: Home
+        component: Home,
+        children: [
+            { path: '/home', redirect: '/goods0' },
+            { path: '/goods0', component: goods0 }
+        ]
     },
     {
         path: '/category',

@@ -1,0 +1,7 @@
+{
+    "status": 200,
+    "message": "请求成功",
+    "goodsList": [
+        { "id": 11111, "url": "https://g-search1.alicdn.com/img/bao/uploaded/i4/imgextra/i3/498410076/O1CN01Tv4AKx1CQqhmXDhUE_!!0-saturn_solar.jpg_230x230.jpg_.webp", "title": "陕北吴起纯粮食荞麦香醋640ml家用食用饺子醋凉拌厂家直销红陈醋", "price": 18.8, "showinfo": "包邮，最快次日到达" },
+    ]
+}

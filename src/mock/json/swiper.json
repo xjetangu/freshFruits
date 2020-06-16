@@ -1,0 +1,15 @@
+{
+    "swiper": {
+        "status": 200,
+        "message": "请求成功",
+        "swiperlist": [
+            { "id": "001", "url": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=4130992985,1364213104&fm=26&gp=0.jpg" },
+            { "id": "002", "url": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1592245770511&di=f9cae069067afaf6b9ff54107b30bd44&imgtype=0&src=http%3A%2F%2Fpic.90sjimg.com%2Fdesign%2F00%2F12%2F98%2F82%2F55c9969f6ff16.jpg%2521yc" },
+            { "id": "003", "url": "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3357945292,2797031994&fm=15&gp=0.jpg" },
+            { "id": "004", "url": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3743945850,2470356803&fm=15&gp=0.jpg" },
+            { "id": "005", "url": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2606932680,3924492494&fm=26&gp=0.jpg" },
+            { "id": "006", "url": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=4065098690,4204950990&fm=26&gp=0.jpg" }
+
+        ]
+    }
+}
