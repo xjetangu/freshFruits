@@ -8,7 +8,11 @@
       </div>
     </search>
     <tabs></tabs>
-   <router-view></router-view>
+    <!-- <keep-alive> -->
+       <router-view></router-view>
+    <!-- </keep-alive> -->
+    
+   
   </div>
 </template>
 
@@ -19,16 +23,29 @@ import tabs from '../../components/content/tabs/tabs'
 export default {
   name: '',
   data(){
-    return {}
+    return {
+      index:''
+    }
   },
   components: {
     search,
     tabs,
     
-  }
+  },
+  activated() {
+    console.log('actived');
+    
+  },
+  deactivated() {
+    console.log('deactived');
+    
+  },
+ 
  
 }
 </script>
 <style lang='less' scoped>
-
+.search {
+  margin: 0;
+}
 </style>

@@ -30,7 +30,7 @@ export default {
   methods: {
     cutDown() {
       //   定义结束时间戳
-      const end = new Date("2020-6-18 20:00:00").getTime();
+      const end = new Date("2020-6-28 24:00:00").getTime();
       //定义当前时间戳
       const start = new Date().getTime();
 

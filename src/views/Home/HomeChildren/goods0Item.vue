@@ -36,7 +36,7 @@ export default {
     display: flex;
     flex-wrap: wrap;
     li {
-      width: 80px;
+      width: 20%;
       text-align: center;
       img {
         width: 50px;

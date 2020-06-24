@@ -1,7 +1,7 @@
 <template>
   <div class="tabs">
-    <van-tabs @click='tabsClick'>
-      <van-tab v-for="(item,index) in tabs" :to="path" :key="index" :title="item.title"></van-tab>
+    <van-tabs  animated v-model="active">
+      <van-tab v-for="(item,index) in tabs" :to="'/home/goods'+index" :key="index" :title="item.title"></van-tab>
     </van-tabs>
   </div>
 </template>
@@ -12,7 +12,7 @@ export default {
   data() {
     return {
       tabs: [],
-       path:''
+      active:0
     };
   },
   props: {},
@@ -20,21 +20,25 @@ export default {
   created() {
     this.getTabs();
   },
-  mounted() {},
+  mounted() {
+    
+  },
   methods: {
     getTabs() {
       this.$http.get("/tabs").then(res => {
         this.tabs = res.data.tabs.tablist;
       });
-    },
-    tabsClick(name,title) {
-        
-        this.path = '/goods'+name
-      
-        
     }
+  
   }
 };
 </script>
-<style lang='less' scoped>
+<style lang='less'>
+.tabs {
+  
+  position: fixed;
+  top: 40px;
+  z-index: 99;
+  width: 100%;
+}
 </style>

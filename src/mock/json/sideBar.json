@@ -1,0 +1,11 @@
+{
+    "sideBar": [
+        { "id": 7111, "title": "酒饮冲调", "name": "jiuyin" },
+        { "id": 7112, "title": "安心乳品", "name": "rupin" },
+        { "id": 7113, "title": "休闲零食", "name": "linshi" },
+        { "id": 7114, "title": "肉蛋食材", "name": "shicai" },
+        { "id": 7115, "title": "新鲜蔬菜", "name": "shucai" },
+        { "id": 7116, "title": "熟食餐饮", "name": "shushi" }
+
+    ]
+}

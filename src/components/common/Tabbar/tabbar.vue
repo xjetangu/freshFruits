@@ -35,16 +35,17 @@ export default {
   }
 };
 </script>
-<style lang="less" scoped>
+<style lang="less">
 .tabbar {
   display: flex;
   position: fixed;
   height: 49px;
-  background: #e5e2e2;
+ 
   bottom: 0;
   left: 0;
   right: 0;
-
+  background-color: white;
+z-index: 9999999;
   align-items: center;
   .item {
     flex: 1;

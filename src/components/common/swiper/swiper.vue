@@ -30,6 +30,7 @@ export default {
 <style lang="less" scoped>
 .swiper {
     margin-top: 5px;
+    padding-top: 80px;
 }
 .imgs {
   height: 150px;
